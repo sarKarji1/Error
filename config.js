@@ -55,7 +55,7 @@ module.exports = {
   author: process.env.STICKER_AUTHOR || "S A R K A R",
   packname: process.env.STICKER_NAME || "😈",
   botname: process.env.BOT_NAME || "GUROJI",
-  ownername: process.env.OWNER_NAME || "BASIT",
+  ownername: process.env.OWNER_NAME || "GUROJI",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "neLbXXrp8bSDcohnp1CW5UEa",
