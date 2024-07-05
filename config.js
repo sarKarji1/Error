@@ -19,7 +19,7 @@ global.gurl = process.env.GURL || "https://wa.me/+923253617422?text=_Hello-sarka
 global.website = process.env.GURL || "https://youtube.com/@sarkarjiteach";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/93e19cd928fce970d5cab.jpg";
 global.devs = "null";
-global.sudo = process.env.SUDO_NUMBERS || "null";
+global.sudo = process.env.SUDO_NUMBERS || "";
 global.sudo = process.env.SUDO || "null";
 global.owner = process.env.OWNER_NUMBER || "923708057140";
 global.style = process.env.STYLE || "1";
@@ -34,11 +34,11 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/93e19cd928fce970d5cab.jpg";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "null";
+global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd.onrender.com";
 global.scan = "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
